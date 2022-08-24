@@ -1,6 +1,10 @@
 // TODO: write your code here
 
-/* import orderByProps from './basic';
+import extractedProps from './basic';
 import obj from './characters';
 
-orderByProps(obj, ['name', 'defence']); */
+// select property id
+const findId = 9;
+const idProps = obj.special.find((item) => item.id === findId);
+extractedProps(idProps);
+// console.log(extractedProps(idProps));
